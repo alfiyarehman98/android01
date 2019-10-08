@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:background="@drawable/food">
+
+<LinearLayout
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_weight="3"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:padding="16sp">
+    <EditText
+        android:id="@+id/et1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+        android:textColorHint="#f1623f"
+        android:backgroundTint="#ecfa50"
+        />
+    <EditText
+        android:id="@+id/et2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:textColorHint="#df8f2e"
+        android:backgroundTint="#cffa6b"
+        />
+    <Button
+
+        android:id="@+id/bt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="sign in"
+        android:onClick="loginb"/>
+
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FORGOTTEN PASSWORD?"
+        android:textColor="#b5fc6a"
+        android:typeface="serif"
+        android:textStyle="bold"
+        android:fontFamily="cursive"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2sp"
+            android:layout_weight="4"
+            android:background="#d0f53c"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OR"
+            android:textColor="#d7f55e"
+            android:padding="4sp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2sp"
+            android:layout_weight="4"
+            android:background="#d0f53c"
+            />
+
+
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/bt2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign up"
+
+        />
+</LinearLayout>
+</LinearLayout>
